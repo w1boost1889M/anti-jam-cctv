@@ -1,7 +1,7 @@
 # =============================================================================
 # Anti-Jam CCTV Protection System
 # =============================================================================
-# Copyright (C) 2026 Avoceous (https://github.com/Avoceous)
+# Copyright (C) 2026 w1boost1889M (https://github.com/w1boost1889M)
 #
 # This file is part of Anti-Jam CCTV Protection System.
 #
@@ -276,7 +276,7 @@ class AlertEngine:
 
 # =============================================================================
 # End of file: core/alert_engine.py
-# Copyright (C) 2026 Avoceous (https://github.com/Avoceous)
+# Copyright (C) 2026 w1boost1889M (https://github.com/w1boost1889M)
 # Licensed under GNU General Public License v3.0 (GPL-3.0)
 # https://github.com/Avoceous/anti-jam-cctv
 # =============================================================================
