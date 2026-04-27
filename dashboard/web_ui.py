@@ -1,7 +1,7 @@
 # =============================================================================
 # Anti-Jam CCTV Protection System
 # =============================================================================
-# Copyright (C) 2026 Avoceous (https://github.com/Avoceous)
+# Copyright (C) 2026 w1boost1889M (https://github.com/w1boost1889M)
 #
 # This file is part of Anti-Jam CCTV Protection System.
 #
