@@ -96,6 +96,126 @@ DASHBOARD_HTML = """
   .conf-fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #f59e0b, #ef4444); }
   footer { text-align: center; padding: 20px; color: #374151; font-size: 0.75rem; }
   footer a { color: #60a5fa; text-decoration: none; }
+
+/* ===========================
+   Mobile Responsive
+   =========================== */
+
+@media (max-width: 1024px) {
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:18px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    body{
+        font-size:15px;
+    }
+
+    .header{
+        flex-direction:column;
+        align-items:flex-start;
+        padding:18px;
+    }
+
+    .header h1{
+        font-size:1.2rem;
+        word-break:break-word;
+    }
+
+    .header-sub{
+        font-size:.8rem;
+    }
+
+    .badge{
+        margin-top:10px;
+    }
+
+    .grid{
+        padding:14px;
+        gap:14px;
+        grid-template-columns:1fr;
+    }
+
+    .card{
+        padding:16px;
+        border-radius:10px;
+    }
+
+    .card h2{
+        font-size:.8rem;
+    }
+
+    .network-mode{
+        font-size:1.2rem;
+    }
+
+    .status-row{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:8px;
+    }
+
+    .jam-item{
+        font-size:.9rem;
+    }
+
+}
+
+@media (max-width:480px){
+
+    body{
+        font-size:14px;
+    }
+
+    .header{
+        padding:14px;
+    }
+
+    .header h1{
+        font-size:1rem;
+    }
+
+    .grid{
+        padding:10px;
+        gap:10px;
+    }
+
+    .card{
+        padding:14px;
+    }
+
+    .network-mode{
+        font-size:1rem;
+    }
+
+    .badge{
+        width:100%;
+        text-align:center;
+    }
+
+    .status-row{
+        padding:12px 0;
+    }
+
+    .jam-item{
+        padding:12px;
+    }
+
+    footer{
+        padding:16px;
+        font-size:.7rem;
+    }
+
+}
+  
 </style>
 </head>
 <body>
